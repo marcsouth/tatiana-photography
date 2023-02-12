@@ -5,11 +5,9 @@ import Gallery from'./gallery';
 import About from'./about';
 import Contact from'./contact';
 import Shop from'./shop';
-import Navbar from './components/navbar'
 import {
     createBrowserRouter,
     RouterProvider,
-    Route,
   } from "react-router-dom"; 
 
 
