@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/navbar'
+import Footer from './components/footer';
 import img1 from './images/img1.JPG'
 import img2 from './images/img2.JPG'
 import img3 from './images/img3.JPG'
@@ -73,7 +74,7 @@ export default function gallery() {
         
         </div>
 
-
+<Footer />
     </>
   )
 }

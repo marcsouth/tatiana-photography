@@ -4,7 +4,7 @@ import Navbar from './components/navbar'
 import { Link } from "react-router-dom";
 
 
-import IMAGES from './images/index';
+
 
 const App = () => {
     return(

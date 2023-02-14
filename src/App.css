@@ -230,6 +230,9 @@ h2{
     .aboutsection2 {
         flex-direction:column-reverse;
          }
+    .contactcontainer{
+        flex-direction: column;
+         }
   }
 
   .quote {
@@ -371,8 +374,155 @@ h2{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     margin-top: 10px;
+    font-family: 'Source Serif Pro';
+  }
+
+
+  .footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-block: 10px;
+  }
+
+  .footer > p{
+    margin-top: 10px;
+  }
+
+  p > a{
+    color: #ff2d2d;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+
+form{
+  display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-inline: 20px;
+    max-width: 500px;
+}
+
+
+
+.contactdivide > input{
+ 
+  max-width: 200px;
+  display: flex;
+  height: 40px;
+}
+
+
+.contactdivide{
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+ 
+.emailmiddle{
+  margin: auto;
+}
+
+form > input{
+  height: 40px;
+  margin-bottom: 20px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #000000;
+  
+}
+
+
+.messagefield{
+  resize: none;
+  font-style: inherit;
+  margin-bottom: 20px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #000000;
+}
+
+input, textarea {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #000000;
+}
+
+textarea::placeholder {
+  font-family: 'Poppins', sans-serif;
+   color: #ffffff;
+  }
+
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+   color: #ffffff;
+  }
+
+
+  form > button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: solid 1.3px #ffffff6b;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+    font-family: inherit;
+  }
+
+  .skillcontainer{
+    background-image:url(./images/contactimage.jpg);
+    padding: 20px;
+    font-size: 30px;
+    max-width: 500px;
+    background-position: top;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
 
 
- 
+  .skillcontainer > p{
+    margin-bottom: 40px;
+    background-color: #000000a7;
+    text-align: center;
+    color: #ffffffe3;
+  }
+
+  form > h2{
+    margin-bottom: 20px;
+    font-family: inherit;
+  }
+
+  .contactcontainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-block: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+  
