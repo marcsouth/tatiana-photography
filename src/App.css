@@ -410,9 +410,10 @@ form{
 
 .contactdivide > input{
  
-  max-width: 200px;
+  max-width: 100px;
   display: flex;
   height: 40px;
+  width: 100%;
 }
 
 
@@ -522,6 +523,10 @@ input::placeholder {
     margin-block: 20px;
     max-width: 1200px;
     margin: auto;
+}
+
+svg > path{
+  color: #fff;
 }
 
 
