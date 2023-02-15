@@ -398,6 +398,8 @@ h2{
     flex-direction: column;
     margin-block: 10px;
     color: #b5b5b5;
+    padding-inline: 20px;
+    text-align: center;
   }
 
   footer > p{
