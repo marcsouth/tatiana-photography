@@ -1,10 +1,10 @@
 import React from 'react';
 import * as ReactDOMClient from 'react-dom/client';
-import App from'./App';
-import Gallery from'./gallery';
-import About from'./about';
-import Contact from'./contact';
-import Shop from'./shop';
+import App from './App';
+import Gallery from './pages/gallery'
+import About from './pages/about'
+import Contact from './pages/contact';
+import Shop from './pages/shop';
 import {
     createBrowserRouter,
     RouterProvider,

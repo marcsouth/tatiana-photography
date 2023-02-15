@@ -1,17 +1,17 @@
 import React from 'react'
-import Navbar from './components/navbar'
-import Footer from './components/footer';
-import img1 from './images/img1.JPG'
-import img2 from './images/img2.JPG'
-import img3 from './images/img3.JPG'
-import img4 from './images/img4.JPG'
-import img5 from './images/img5.JPG'
-import img6 from './images/img6.JPG'
-import img7 from './images/img7.JPG'
-import img9 from './images/img9.JPG'
-import img13 from './images/img13.JPG'
-import img15 from './images/img15.JPG'
-import img11 from './images/img11.JPG'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer';
+import img1 from '../images/img1.JPG'
+import img2 from '../images/img2.JPG'
+import img3 from '../images/img3.JPG'
+import img4 from '../images/img4.JPG'
+import img5 from '../images/img5.JPG'
+import img6 from '../images/img6.JPG'
+import img7 from '../images/img7.JPG'
+import img9 from '../images/img9.JPG'
+import img13 from '../images/img13.JPG'
+import img15 from '../images/img15.JPG'
+import img11 from '../images/img11.JPG'
 
 
 export default function gallery() {

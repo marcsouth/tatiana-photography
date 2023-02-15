@@ -1,8 +1,8 @@
 import React from 'react'
-import data from './utils/data'
-import Navbar from './components/navbar'
-import ProductItem from './components/productItem'
-import Footer from './components/footer';
+import data from '../utils/data'
+import Navbar from '../components/navbar'
+import ProductItem from '../components/productItem'
+import Footer from '../components/footer';
 
 
 

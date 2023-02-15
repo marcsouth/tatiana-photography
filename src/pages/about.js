@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from './components/navbar'
-import headshot from './images/tatiana-photo.jpg'
-import aboutshot from './images/aboutshot.jpg'
-import Footer from './components/footer';
+import Navbar from '../components/navbar'
+import headshot from '../images/tatiana-photo.jpg'
+import aboutshot from '../images/aboutshot.jpg'
+import Footer from '../components/footer';
 
 
 
