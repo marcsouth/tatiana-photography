@@ -166,7 +166,6 @@ h2{
 #demo-text {
 	font-size: 8vmax;
     text-align: center;
-
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -174,6 +173,19 @@ h2{
 	background-image: url('images/homepage.JPG');
     background-position: center;
 }
+
+#demo-textsmall {
+	font-size: 4vmax;
+    text-align: center;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('images/homepage.JPG');
+    background-position: revert;
+    margin-bottom: 40px;
+  }
+
 
 .aboutcontainer{
     
@@ -297,7 +309,7 @@ h2{
     -webkit-column-gap:20px;
     -moz-column-gap:20px;
     column-gap:20px;
-    padding: 20px;
+    padding-inline: 20px;
   }
   @media (max-width:1200px){
     #gallery{
@@ -378,16 +390,17 @@ h2{
   }
 
 
-  .footer{
+  footer{
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-block: 10px;
+    color: #b5b5b5;
   }
 
-  .footer > p{
+  footer > p{
     margin-top: 10px;
   }
 
@@ -404,6 +417,9 @@ form{
     width: 100%;
     padding-inline: 20px;
     max-width: 500px;
+    margin: auto;
+    margin-block: 40px;
+    
 }
 
 
@@ -458,17 +474,19 @@ input, textarea {
   border-left-style: hidden;
   border-bottom-style: groove;
   background-color: #000000;
+  
 }
 
 textarea::placeholder {
   font-family: 'Poppins', sans-serif;
-   color: #ffffff;
+  color: #fff;
   }
 
 
 input::placeholder {
   font-family: 'Poppins', sans-serif;
-   color: #ffffff;
+  color: #fff;
+
   }
 
 
@@ -490,43 +508,18 @@ input::placeholder {
     font-family: inherit;
   }
 
-  .skillcontainer{
-    background-image:url(./images/contactimage.jpg);
-    padding: 20px;
-    font-size: 30px;
-    max-width: 500px;
-    background-position: top;
-    width: 100%;
-    margin-bottom: 20px;
-  }
 
-
-
-  .skillcontainer > p{
-    margin-bottom: 40px;
-    background-color: #000000a7;
-    text-align: center;
-    color: #ffffffe3;
-  }
 
   form > h2{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-family: inherit;
+    font-size: 30px;
+    color: #b5b5b5;
   }
 
-  .contactcontainer{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    margin-block: 20px;
-    max-width: 1200px;
-    margin: auto;
-}
 
-svg > path{
-  color: #fff;
+footer > a{
+  color: whitesmoke;
 }
 
 

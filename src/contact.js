@@ -12,19 +12,12 @@ export default function contact() {
 
   <div id="demo-text">CONTACT US</div>
 
-  <div className="contactcontainer">
 
-  <div className="skillcontainer">
-
-    <p>Photoshoots</p>
-    <p className='flexend'>Lessons</p>
-    <p>Exhibitions</p>
-    <p className='flexend'>Inquiries...</p>
-  </div>
 
   <form method="POST">
 
-  <h2>Reach Out Today...</h2>
+  <div id="demo-textsmall">Reach out Today</div>
+
       <div className="contactdivide">
 
      <input type="text" name="name" placeholder="Name" required />
@@ -36,7 +29,6 @@ export default function contact() {
      <textarea type="message" name="message" placeholder="Your Message" className='messagefield' required />
      <button type="submit">Send</button>
     </form>
-</div>
 
 <Footer />
 
