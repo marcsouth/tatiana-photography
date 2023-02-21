@@ -548,3 +548,11 @@ footer > a{
     justify-content: center;
     flex-direction: column;
 }
+
+.shopimage{
+  display: flex;
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  width: 100%;
+}
