@@ -6,9 +6,10 @@ import { Link } from "react-router-dom";
 
 
 
+
 const App = () => {
     return(
-    <>
+
 
         <div className="landingimage">
         
@@ -18,7 +19,7 @@ const App = () => {
       
         </div>
 
-    </>
+
     );
 }
 

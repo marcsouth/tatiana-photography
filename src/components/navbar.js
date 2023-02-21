@@ -4,12 +4,13 @@ import { useState } from "react";
 
 
 
+
 export default function Navbar() {
 
 
     const [divState, setDivState] = useState(false);
 
-function handleClick(){  
+       function handleClick(){  
     
     setDivState(divState => !divState)
 
@@ -23,6 +24,8 @@ let toggleClassCheck = divState ? ' is-active': null
 
 
   return (
+
+  
     <header>
         <Link to='/'>
     <h1>TATIANA DEL DEO</h1>
@@ -50,6 +53,7 @@ let toggleClassCheck = divState ? ' is-active': null
       </li>
   </ul>
 </nav>
+
 
 
     </header>

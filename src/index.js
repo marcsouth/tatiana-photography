@@ -5,6 +5,8 @@ import Gallery from './pages/gallery'
 import About from './pages/about'
 import Contact from './pages/contact';
 import Shop from './pages/shop';
+
+
 import {
     createBrowserRouter,
     RouterProvider,
@@ -32,7 +34,8 @@ import {
       {
         path: "shop",
         element: <Shop/>
-      },
+      }
+      
   ]);
 
 
