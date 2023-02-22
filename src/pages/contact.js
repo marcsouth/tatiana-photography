@@ -22,6 +22,13 @@ export default function contact() {
      <input type="text" name="lastname" placeholder="Last Name" className='emailmiddle' required />
 
       </div>
+     
+
+     <input type="submit" value="Send" class="sendbutton"/>
+
+     <input type="hidden" name="_template" value="table" />
+
+     <input type="text" name="_honey" style="display:none" />
 
       <input type="email" name="email" placeholder="Email"  required />
      <textarea type="message" name="message" placeholder="Your Message" className='messagefield' required />
