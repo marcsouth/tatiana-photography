@@ -157,7 +157,7 @@ h1{
 
 
 h2{
-    color: #fff;
+    color: #000000;
     font-size: 40px;
     font-weight: 200;
     text-align: center;
@@ -459,21 +459,20 @@ input::placeholder {
 
 
   form > button {
-    margin: auto;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    background: none;
-    border: solid 1.3px #ffffff6b;
-    color: white;
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
-    font-weight: 500;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    margin-top: 20px;
+    background: none;
+    border: 1.3px solid #0000006b;
+    color: #000;
+    display: flex;
     font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    margin: 20px auto auto;
+    width: 100px;
   }
 
 
