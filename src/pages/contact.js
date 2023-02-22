@@ -16,8 +16,6 @@ export default function contact() {
 
   <form method="POST">
 
-  <div id="demo-textsmall">Reach out Today</div>
-
       <div className="contactdivide">
 
      <input type="text" name="name" placeholder="Name" required />

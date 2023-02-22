@@ -15,7 +15,7 @@ const App = () => {
         
         <Navbar />
 
-        <button className='landingbutton'> <Link to='/shop'>SHOP NEW PRINTS</Link></button>
+        <button className='landingbutton'> <Link to='/Gallery'>AVAILABLE PRINTS</Link></button>
       
         </div>
 

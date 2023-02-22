@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import logonav from "../images/logo-nav.png";
 
 
 
@@ -28,7 +29,7 @@ let toggleClassCheck = divState ? ' is-active': null
   
     <header>
         <Link to='/'>
-    <h1>TATIANA DEL DEO</h1>
+        <img src={logonav}  className="logo-nav"/>
         </Link>
 
     <div className={`hamburger mobile-nav-toggle ${ toggleClassCheck}`} id="hamburger-1" onClick={handleClick} >
@@ -40,13 +41,10 @@ let toggleClassCheck = divState ? ' is-active': null
 <nav className="nav-bar">
   <ul className={` ${divState ? "active-nav": "primary-nav" }`} >
       <li className="navlink">
-         <Link to='/about'>About</Link>
-      </li>
-      <li className="navlink">
       <Link to='/gallery'>Gallery</Link>
       </li>
       <li className="navlink">
-      <Link to='/shop'>Shop</Link>
+         <Link to='/about'>About</Link>
       </li>
       <li className="navlink">
       <Link to='/contact'>Contact</Link>
