@@ -16,7 +16,7 @@ export default function about() {
 
 
 <div className='aboutcontainer'>
-  <img src={headshot} alt="tatiana headshot" className="headshot"/>
+  <img src={headshot} alt="tatiana headshot" className="headshot nofotomoto"/>
   
   <p>Tatiana Del Deo's career spans diverse worlds and cultures. Born and raised in Vilnius,
    Lithuania during Soviet rule, she emigrated to the USA to learn about fashion and commerce. 
@@ -48,7 +48,7 @@ La Nazione Newspaper, Italy; The Arts Newspaper; Overview Art; Aint-Bad; Provinc
   </p>
 </div>
 
-<img src={aboutshot} alt="working headshot" className="headshot"/>
+<img src={aboutshot} alt="working headshot" className="headshot nofotomoto"/>
 
 </div>
 

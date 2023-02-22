@@ -29,7 +29,7 @@ let toggleClassCheck = divState ? ' is-active': null
   
     <header>
         <Link to='/'>
-        <img src={logonav}  className="logo-nav"/>
+        <img src={logonav}  className="logo-nav nofotomoto"/>
         </Link>
 
     <div className={`hamburger mobile-nav-toggle ${ toggleClassCheck}`} id="hamburger-1" onClick={handleClick} >

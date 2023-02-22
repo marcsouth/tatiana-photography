@@ -92,7 +92,7 @@ function fotomoto_ready(f) {
 }
 
   loadcss("https://static-fotomoto-com.s3.amazonaws.com/assets/fotomoto-v2-min.css?1676918588");
-  loadcss("https://widget.fotomoto.com/stores/style/5547749e781fa145c31aab609bfd8b0068fa2819.css");
+ 
 
   loadjs("https://static-fotomoto-com.s3.amazonaws.com/assets/fotomoto-min.js?1676918588");
 
