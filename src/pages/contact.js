@@ -24,14 +24,13 @@ export default function contact() {
       </div>
      
 
-     <input type="submit" value="Send" class="sendbutton"/>
 
      <input type="hidden" name="_template" value="table" />
 
 
       <input type="email" name="email" placeholder="Email"  required />
      <textarea type="message" name="message" placeholder="Your Message" className='messagefield' required />
-     <button type="submit">Send</button>
+     <button type="submit" value="Send">Send</button>
     </form>
 
 <Footer />
