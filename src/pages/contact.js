@@ -14,7 +14,7 @@ export default function contact() {
 
 
 
-  <form method="POST">
+  <form method="POST" action="https://formsubmit.co/el/duduxe">
 
       <div className="contactdivide">
 
