@@ -28,7 +28,6 @@ export default function contact() {
 
      <input type="hidden" name="_template" value="table" />
 
-     <input type="text" name="_honey" style="display:none" />
 
       <input type="email" name="email" placeholder="Email"  required />
      <textarea type="message" name="message" placeholder="Your Message" className='messagefield' required />
