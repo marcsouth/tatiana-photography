@@ -222,8 +222,8 @@ h2{
   align-items: center;
   justify-content: center;
   background: none;
-  border: solid 1.3px white;
-  color: white;
+  border: solid 1.3px #a5a5a5;
+  color: #a5a5a5;
   width: 165px;
   height: 40px;
   margin-top: 600px;
@@ -234,7 +234,7 @@ h2{
 }
 
 .landingbutton > a{
-    color: white;
+    color: #cdc9c9;
 }
 
 
@@ -347,7 +347,6 @@ h2{
     width:100%;
     height:auto;
     margin: 4% auto;
-    box-shadow:-3px 5px 15px #000;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
   }
@@ -419,6 +418,7 @@ form > input{
   border-left-style: hidden;
   border-bottom-style: groove;
   background-color: #ffffff;
+  border-bottom-width: thin;
   
 }
 
@@ -442,6 +442,7 @@ input, textarea {
   border-left-style: hidden;
   border-bottom-style: groove;
   background-color: #ffffff;
+  border-bottom-width: thin;
   
 }
 
@@ -467,9 +468,9 @@ input::placeholder {
     color: #000;
     display: flex;
     font-family: inherit;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
-    height: 40px;
+    height: 30px;
     justify-content: center;
     margin: 20px auto auto;
     width: 100px;
@@ -561,4 +562,22 @@ footer > a{
 
 .logo-nav{
   height:100px;
+}
+
+.contactp{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.contactpabove{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
