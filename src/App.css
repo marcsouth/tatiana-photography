@@ -313,6 +313,7 @@ h2{
     -moz-column-gap:20px;
     column-gap:20px;
     padding-inline: 20px;
+    margin-block: 40px;
   }
   @media (max-width:1200px){
     #gallery{

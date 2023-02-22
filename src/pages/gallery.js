@@ -21,7 +21,7 @@ export default function gallery() {
 
 <Navbar />
 
-<h2>Portrait</h2>
+<div id="demo-text">PORTRAIT</div>
     
     <div id="gallery" className='container-fluid'>  
       <img src={img1} className='img-responsive'/>
@@ -36,8 +36,8 @@ export default function gallery() {
       <img src={img15} className='img-responsive'/>
       <img src={img11} className='img-responsive'/>
     </div>
-    
-    <h2>Still Life</h2>
+  
+    <div id="demo-text">STILL LIFE</div>
         
         <div id="gallery" className='container-fluid'>  
         <img src={img1} className='img-responsive'/>
@@ -55,8 +55,7 @@ export default function gallery() {
         
         </div>
     
-    
-        <h2>Landscape</h2>
+        <div id="demo-text">LANDSCAPE</div>
         
         <div id="gallery" className='container-fluid'>  
         <img src={img1} className='img-responsive'/>
