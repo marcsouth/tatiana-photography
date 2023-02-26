@@ -435,3 +435,19 @@ form > .submitbutton{
   width: 30%;
   margin: auto;
 }
+
+.hiddenread{
+  display: none;
+}
+
+.readmore{
+  display: block;
+  font-size: 16px;
+}
+
+.readmorestyle{
+  color: #9B2B0A;
+  font-size: 16px;
+
+}
+
