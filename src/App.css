@@ -350,6 +350,7 @@ h2{
     margin: 4% auto;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
+    cursor: pointer;
   }
 
 
@@ -450,4 +451,34 @@ form > .submitbutton{
   font-size: 16px;
 
 }
+
+.modal{
+  display: none;
+}
+
+.openmodal{
+  display: block;
+  background: #00000030;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modalcontainer{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+.modalcontainer > img{
+  display: flex;
+  width: 100%;
+}
+
+
 

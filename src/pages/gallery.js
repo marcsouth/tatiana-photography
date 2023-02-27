@@ -1,79 +1,52 @@
-import React from 'react'
-import Navbar from '../components/navbar'
+import React from 'react';
+import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import img1 from '../images/img1.JPG'
-import img2 from '../images/img2.JPG'
-import img3 from '../images/img3.JPG'
-import img4 from '../images/img4.JPG'
-import img5 from '../images/img5.JPG'
-import img6 from '../images/img6.JPG'
-import img7 from '../images/img7.JPG'
-import img9 from '../images/img9.JPG'
-import img13 from '../images/img13.JPG'
-import img15 from '../images/img15.JPG'
-import img11 from '../images/img11.JPG'
+import { portraitImages } from '../utils/data';
+import { useState } from 'react';
 
+export default function Gallery() {
+  const [openModal, setOpenModal] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
 
-export default function gallery() {
+  function openWindow(image) {
+    setSelectedImage(image);
+    setOpenModal(true);
+  }
+
+  function closeWindow() {
+    setSelectedImage(null);
+    setOpenModal(false);
+  }
+
+  let modalOpen = openModal ? 'openmodal' : null;
 
   return (
     <>
-
-<Navbar />
-
-<div id="demo-text">PORTRAIT</div>
-    
-    <div id="gallery" className='container-fluid'>  
-      <img src={img1} className='img-responsive'/>
-      <img src={img2} className='img-responsive'/>
-      <img src={img3} className='img-responsive'/>
-      <img src={img4} className='img-responsive'/>
-      <img src={img5} className='img-responsive'/>
-      <img src={img6} className='img-responsive'/>
-      <img src={img7} className='img-responsive'/>
-      <img src={img9} className='img-responsive'/>
-      <img src={img13} className='img-responsive'/>
-      <img src={img15} className='img-responsive'/>
-      <img src={img11} className='img-responsive'/>
-    </div>
-  
-    <div id="demo-text">STILL LIFE</div>
-        
-        <div id="gallery" className='container-fluid'>  
-        <img src={img1} className='img-responsive'/>
-      <img src={img2} className='img-responsive'/>
-      <img src={img3} className='img-responsive'/>
-      <img src={img4} className='img-responsive'/>
-      <img src={img5} className='img-responsive'/>
-      <img src={img6} className='img-responsive'/>
-      <img src={img7} className='img-responsive'/>
-      <img src={img9} className='img-responsive'/>
-      <img src={img13} className='img-responsive'/>
-      <img src={img15} className='img-responsive'/>
-      <img src={img11} className='img-responsive'/>
-          <img src="" className='img-responsive'/>
-        
+      <Navbar />
+      <div id="demo-text">PORTRAIT</div>
+      <div id="gallery" className="container-fluid">
+        {portraitImages.map((image) => (
+          <img
+            src={image.src}
+            key={image.id}
+            className="img-responsive"
+            onClick={() => openWindow(image)}
+          />
+        ))}
+      </div>
+      <div className={`modal ${modalOpen}`} onClick={closeWindow}>
+        <div className="modalcontainer">
+          {selectedImage && (
+            <>
+              <img src={selectedImage.src} alt={selectedImage.title} />
+              <div>{selectedImage.title}</div>
+              <div>{selectedImage.price}</div>
+              <div>{selectedImage.size}</div>
+            </>
+          )}
         </div>
-    
-        <div id="demo-text">LANDSCAPE</div>
-        
-        <div id="gallery" className='container-fluid'>  
-        <img src={img1} className='img-responsive'/>
-      <img src={img2} className='img-responsive'/>
-      <img src={img3} className='img-responsive'/>
-      <img src={img4} className='img-responsive'/>
-      <img src={img5} className='img-responsive'/>
-      <img src={img6} className='img-responsive'/>
-      <img src={img7} className='img-responsive'/>
-      <img src={img9} className='img-responsive'/>
-      <img src={img13} className='img-responsive'/>
-      <img src={img15} className='img-responsive'/>
-      <img src={img11} className='img-responsive'/>
-          <img src="" className='img-responsive'/>
-        
-        </div>
-
-<Footer />
+      </div>
+      <Footer />
     </>
-  )
+  );
 }
