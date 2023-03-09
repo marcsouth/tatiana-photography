@@ -39,9 +39,9 @@ export default function Gallery() {
           {selectedImage && (
             <>
               <img src={selectedImage.src} alt={selectedImage.title} />
-              <div>{selectedImage.title}</div>
-              <div>{selectedImage.price}</div>
-              <div>{selectedImage.size}</div>
+            <h3>"{selectedImage.title}"</h3>
+              <p>{selectedImage.price} $</p>
+              <p>{selectedImage.size}</p>
             </>
           )}
         </div>

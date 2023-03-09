@@ -4,12 +4,7 @@ import App from './App';
 import Gallery from './pages/gallery'
 import About from './pages/about'
 import Contact from './pages/contact';
-
-
-import {
-    createBrowserRouter,
-    RouterProvider,
-  } from "react-router-dom"; 
+import {createBrowserRouter, RouterProvider, } from "react-router-dom"; 
 
 
 

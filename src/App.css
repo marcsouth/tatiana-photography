@@ -226,7 +226,7 @@ h2{
   color: #a5a5a5;
   width: 165px;
   height: 40px;
-  margin-top: 600px;
+  margin-top: 400px;
   font-size: 15px;
   font-weight: 500;
   -webkit-backdrop-filter: blur(10px);
@@ -458,21 +458,22 @@ form > .submitbutton{
 
 .openmodal{
   display: block;
-  background: #00000030;
+  background: #000000ab;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 .modalcontainer{
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  right: 40px;
-  bottom: 40px;
   background-color: rgb(255, 255, 255);
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
 }
 
 .modalcontainer > img{
