@@ -24,6 +24,7 @@ export const ContactUs = () => {
       <input type="email" name="user_email" required/>
       <label>Message*</label>
       <textarea name="message"  required/>
+      <p className='contactp'>By submitting this form you will be added to our mailing list.</p>
       <input type="submit" value="Send" className='submitbutton' />
     </form>
   );

@@ -398,7 +398,7 @@ footer > a{
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .contactpabove{
@@ -435,6 +435,10 @@ form > textarea{
 form > .submitbutton{
   width: 30%;
   margin: auto;
+  /* color: darkgrey; */
+  background: #ebebeb;
+  color: #000000;
+  border-radius: 0px;
 }
 
 .hiddenread{
@@ -481,5 +485,14 @@ form > .submitbutton{
   width: 100%;
 }
 
+form > input{
+    border: 1px solid gray;
+    height: 40px;
+}
+
+form > textarea{
+  border: 1px solid gray;
+    height: 80px;
+}
 
 

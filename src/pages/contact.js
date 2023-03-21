@@ -19,7 +19,7 @@ export default function contact() {
   <ContactUs />
 
 
-<p className='contactp'>By submitting this form you will be added to our mailing list.</p>
+
 
 <Footer />
 
