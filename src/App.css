@@ -438,7 +438,8 @@ form > .submitbutton{
   /* color: darkgrey; */
   background: #ebebeb;
   color: #000000;
-  border-radius: 0px;
+-webkit-appearance: none;
+border-radius: 0;
 }
 
 .hiddenread{
